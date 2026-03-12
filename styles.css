@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: #f7f7f4;
+    background-color: #ffff04;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-    background-color: #f2f1ed;
+    background-color: #ff00d4;
     border-radius: 4px;
     padding: 32px;
     width: 320px;
