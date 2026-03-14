@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background-color: #ffff04;
+    background-color: #efeded;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,18 +20,24 @@ body {
     gap: 32px;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 .card {
-    background-color: #ff00d4;
+    background-color: #e2e2e2;
     border-radius: 4px;
-    padding: 32px;
+    padding: 32px 16px; 
     width: 320px;
-    min-height: 420px;
+    min-height: 380px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .card-title {
     font-size: 32px;
@@ -41,9 +47,20 @@ body {
 }
 
 .card-price {
+    color: rgba(102, 102, 102, 0.6);
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.card-price-amount {
     font-size: 20px;
-    color: #666;
-    margin-bottom: 24px;
+    color: rgba(38, 37, 39, 0.5);
+}   
+
+.card-price-period {
+    font-size: 16px;
+    color: rgba(38, 37, 39, 0.5);
 }
 
 .card-content {
@@ -52,8 +69,8 @@ body {
 
 .includes-text {
     font-size: 16px;
-    color: #333;
-    margin-bottom: 16px;
+    margin: 16px 0px;
+    color: rgba(38, 37, 39, 0.5); 
 }
 
 .features-list {
@@ -64,16 +81,16 @@ body {
 .features-list li {
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
-    font-size: 15px;
-    color: #333;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color:  #26251e;
 }
 
 .checkmark {
-    color: #4a4a4a;
-    font-size: 18px;
-    margin-right: 12px;
-    font-weight: bold;
+    color:  #26251e;
+    font-size: 16px;
+    margin-right: 10px;
+    font-weight: regular;
 }
 
 .download-button {
